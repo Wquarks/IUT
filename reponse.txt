@@ -1,31 +1,54 @@
-TD1
+TD1:
 
-Question 1:
-	Le dossier App est composer des aplication ressource(views contient le squellette du site en scala et controleur contien des methodes pour généré les pages.
+	Question 1:
+		Le dossier App est composer des aplication ressource(views contient le squellette du site en scala et controleur contien des methodes pour généré les pages.
 
-Question 2:
-	Le dossier Conf est composer  des fichier de configuration et principalement de routes.
+	Question 2:
+		Le dossier Conf est composer  des fichier de configuration et principalement de routes.
+		
+	Question 3:
+		Le dossier lib contien les librairie qui sont utiliser. 
+		
+	Question 4:	
+		Le dossier public est composer des sont les resource utiliser par le serveur web (image,js,css).
+
+	Question 5:
+		Le dossier test est present pour faire des tests fonctionel/unitaire.
+
+	Question 6: 
+		Les fichier.class sont dans le fichier target => (./target/scala-2.13/classes).
+
+	Question 7:
+		Les 3 caracteres non reconnus par l'encodage UTF8 car il utilisé par play sont : @,},{,(pour les deux dernier, c'est seiulement dans le cas ou les acolade sont seul ou dos a dos (avec ou sans text dedans)). 
+
+	Question 8:
+		La route emprunter par l'URL localhost:9000 est => controllers.HomeController.index 
+		
+	Question 9:
+		Une page est dite statique si le contenu ne varie pas selon la demande.
+		
+	Question 10:
+		La methode views.html.n.render() sert à injecter le contenu de n dans la page main.scala.html
+
+		
+TD2:		
+	Question 1:
+		
+		
+	Question 2:
+		
+		
+	Question 3:
+		Le resultat de l'adresse localhost:9000 est de nous afficher l'index.
+		
+	Question 4:
+		Le resultat de l'adresse localhost:9000/helloworld est : For request 'GET /helloworld' [Missing parameter: fname], notre requete est donc incomplete...
+		
+	Question 5:
+		Le resultat de l'adresse localhost:9000/helloworld/?fname=lilou est :Action Not Found
+		Pour que cela fonctionne, il faut rentrer l'adresse localhost:9000/helloworld?fname=lilou
+		et dans ce cas là, nous obtenons : Hello lilou
+		
+	Question 6:
+		Le code Formulaire1 nous renvois a la page helloworld, en mettant en fname la valeur remplis en fname.
 	
-Question 3:
-	Le dossier lib contien les librairie qui sont utiliser. 
-	
-Question 4:	
-	Le dossier public est composer des sont les resource utiliser par le serveur web (image,js,css).
-
-Question 5:
-	Le dossier test est present pour faire des tests fonctionel/unitaire.
-
-Question 6: 
-	Les fichier.class sont dans le fichier target => (./target/scala-2.13/classes).
-
-Question 7:
-	Les 3 caracteres non reconnus par l'encodage UTF8 car il utilisé par play sont : @,},{,(pour les deux dernier, c'est seiulement dans le cas ou les acolade sont seul ou dos a dos (avec ou sans text dedans)). 
-
-Question 8:
-	La route emprunter par l'URL localhost:9000 est => controllers.HomeController.index 
-	
-Question 9:
-	Une page est dite statique si le contenu ne varie pas selon la demande.
-	
-Question 10:
-	La methode views.html.n.render() sert à injecter le contenu de n dans la page main.scala.html

@@ -8,7 +8,7 @@ body {
 	 background-color: #0160c3;
 }
 
-h1,h2{
+h1,h2,h3{
      text-align:center;
      margin:0 
 }
@@ -19,8 +19,6 @@ h1 {
 	 background-color:white;
      display:block;
      padding:auto;
-     margin-top:0;
-     margin-bottom:4px;
      border-bottom-style:solid;
      border-bottom-color:#004996  
 }
@@ -60,6 +58,9 @@ p {
      border-color:#004996 ;
      text-decoration:none 
 }
-input{
-	display: inline-block;
+.inp{
+	display: block;
+    margin-left: 100px;
+	margin-top: 100px;
+	margin-top: 30px;
 }

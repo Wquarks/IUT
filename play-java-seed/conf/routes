@@ -10,6 +10,6 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 GET     /vide                        controllers.HomeController.vide
 
-GET		/helloworld					controllers.HomeController.helloworld(fname : String)
+GET		/helloworld					controllers.HomeController.helloworld(fname : String,fage : String, faddress : String)
 
 GET     /formulaire1                        controllers.HomeController.formulaire1

@@ -1,7 +1,12 @@
 @()
 @main("Formulaire1"){
-	@helper.form(action = routes.HomeController.helloworld("")){
+	@helper.form(action = routes.HomeController.helloworld("vide","2","3")){
+	<h3>Voici un petit Formulaire :</h3>
+	<nav class=inp>
 		<input name ="fname" placeholder="My name"/>
-		<input type="submit" value="Say hello"/>
+		<input name ="fage" placeholder="My age"/>
+		<input name ="faddress" placeholder="My address "/>
+		<input type="submit" value="OK"/>
+	</nav>
 	}
 }

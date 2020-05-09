@@ -22,9 +22,9 @@ public class HomeController extends Controller {
         return ok(views.html.vide.render());
     }
 	
-	public Result helloworld(String fname){
-		return ok(views.html.helloworld.render(fname));
-	}
+	public Result helloworld(String fname,String fage, String faddress){
+        return ok(views.html.helloworld.render(fname,fage,faddress));
+    }
 	
 	public Result formulaire1() {
         return ok(views.html.formulaire1.render());

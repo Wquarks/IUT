@@ -1,0 +1,7 @@
+@()
+@main("Formulaire1"){
+	@helper.form(action = routes.HomeController.helloworld("")){
+		<input name ="fname" placeholder="My name"/>
+		<input type="submit" value="Say hello"/>
+	}
+}

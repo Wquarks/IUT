@@ -17,7 +17,16 @@ public class HomeController extends Controller {
     public Result index() {
         return ok(views.html.index.render("Je suis le controleur"));
     }
+	
 	public Result vide() {
         return ok(views.html.vide.render());
+    }
+	
+	public Result helloworld(String fname){
+		return ok(views.html.helloworld.render(fname));
+	}
+	
+	public Result formulaire1() {
+        return ok(views.html.formulaire1.render());
     }
 }
